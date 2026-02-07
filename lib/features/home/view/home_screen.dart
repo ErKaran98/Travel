@@ -246,7 +246,7 @@ class HomeScreen extends GetView<HomeController> {
                 ),
 
                 const SizedBox(height: 4),
-                
+
                 Text(
                   value,
                   style: const TextStyle(

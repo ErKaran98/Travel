@@ -1,16 +1,98 @@
-# traveltekpro_task_karan
+✈️ TravelTekPro Flutter Practical Assessment
 
-A new Flutter project.
+📌 Project Objective
 
-## Getting Started
+This project was developed as part of the Flutter Practical Assessment.
 
-This project is a starting point for a Flutter application.
+🚀 Features Implemented
 
-A few resources to get you started if this is your first Flutter project:
+🎬 Splash Screen
+•	Animated gradient wave transition
+•	Logo fade‑in animation
+•	Smooth navigation from Splash → Home
+•	Custom animation controller using GetX
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+⸻
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🏠 Home Screen
+
+🔹 Header Section
+•	Figma‑based background header image
+•	Palm tree overlay alignment
+
+🔹 Booking Card UI
+•	Floating white container with rounded corners
+•	Soft shadow elevation
+
+🔹 Category Selector
+•	Hotels
+•	Flights
+•	Life Experience
+•	Cars
+•	Cruises
+•	Reactive selection using GetX (.obs + Obx)
+
+🔹 Booking Fields
+•	Destination
+•	Date
+•	Travelers
+•	Implemented using Material inbuilt icons
+
+🔹 Search Button
+•	Gradient background
+•	Rounded radius
+•	Elevated shadow styling
+
+⸻
+
+🧭 Bottom Navigation Bar
+•	Custom curved navigation bar
+•	Center floating gradient action button
+•	Custom image icon support
+•	Reactive tab switching using GetX
+
+⸻
+
+Structure Highlights
+•	GetView pattern used across screens
+•	Controller separation for business logic
+•	Reusable widgets implemented
+•	Organized and scalable folder structure
+
+⸻
+
+⚙️ State Management
+
+State management implemented using GetX:
+•	Reactive variables (.obs)
+•	Obx UI updates
+•	Controller bindings via routes
+•	Lightweight & scalable architecture
+
+⸻
+
+🔁 Animations & Transitions
+•	Splash wave animation
+•	Logo fade transition
+•	Page navigation transitions
+•	Floating action elevation effects
+
+⸻
+
+📱 Screen Recording
+
+https://drive.google.com/file/d/1mRwvCwL53jRiErA94frbMthPoJ0RBgeQ/view?usp=sharing
+
+⸻
+
+📦 Submission Details
+•	GitHub Repository Included
+•	README Documentation Added
+•	Screen Recording Attached
+
+⸻
+
+👨‍💻 Developed By
+
+Karan Rana
+Flutter Developer
