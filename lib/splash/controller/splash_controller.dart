@@ -31,7 +31,7 @@ class SplashController extends GetxController
     controller.forward();
 
     Future.delayed(const Duration(seconds: 4), () {
-      // Get.offAllNamed("/home");
+       Get.offAllNamed("/bottomNav");
     });
   }
 }
