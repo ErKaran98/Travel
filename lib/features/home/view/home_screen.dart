@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:traveltekpro_task_karan/features/home/widgets/category_card.dart';
 import 'package:traveltekpro_task_karan/features/home/widgets/hot_and_research_card.dart';
 import 'package:traveltekpro_task_karan/features/home/widgets/info_tile.dart';
+import 'package:traveltekpro_task_karan/features/home/widgets/life_experience_card.dart';
 import 'package:traveltekpro_task_karan/features/home/widgets/recent_search_card.dart';
 import '../controller/home_controller.dart';
 
@@ -205,7 +206,7 @@ class HomeScreen extends GetView<HomeController> {
                             fontSize: 20.sp,
                           ),
                         ),
-                        SizedBox(height: 10.h),
+                        SizedBox(height: 6.h),
                         Text(
                           'We bring exclusive offers for The Club members, daily.',
                           style: TextStyle(
@@ -303,8 +304,75 @@ class HomeScreen extends GetView<HomeController> {
                       ),
                     ),
                   ),
-                  SizedBox(height: 10.h),
+                  Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 16.w),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          'Life Experience®',
+                          style: TextStyle(
+                            color: Color(0xFF101720),
+                            fontWeight: FontWeight.w700,
+                            fontSize: 20.sp,
+                          ),
+                        ),
+                        SizedBox(height: 6.h),
+                        Text(
+                          'Discover the magic of a Life Experience.',
+                          style: TextStyle(
+                            color: Color(0xFF4F5858),
+                            fontWeight: FontWeight.w500,
+                            fontSize: 12.sp,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(height: 4.h),
+                  SizedBox(
+                    height: 385.h,
+                    child: Padding(
+                      padding: EdgeInsets.symmetric(
+                        horizontal: 16.w,
+                        vertical: 16.h,
+                      ),
+                      child: ListView(
+                        scrollDirection: Axis.horizontal,
+                        children: [
+                          LifeExperienceCard(),
+                          SizedBox(width: 16.w),
+                          LifeExperienceCard(),
+                        ],
+                      ),
+                    ),
+                  ),
 
+                  Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 16.w,vertical: 10.h),
+                    child: SizedBox(
+                      width: double.infinity,
+                      height: 39.h,
+                      child: Container(
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                          border: Border.all(
+                            color: const Color(0xFF4757E4),
+                            width: 1,
+                          ),
+                          borderRadius: BorderRadius.circular(8.r),
+                        ),
+                        child: Text(
+                          "Explore more",
+                          style: TextStyle(
+                            fontSize: 13.sp,
+                            fontWeight: FontWeight.w600,
+                            color: const Color(0xFF4757E4),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
