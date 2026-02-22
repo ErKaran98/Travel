@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:traveltekpro_task_karan/features/home/widgets/category_card.dart';
+import 'package:traveltekpro_task_karan/features/home/widgets/flash_deals_section.dart';
 import 'package:traveltekpro_task_karan/features/home/widgets/hot_and_research_card.dart';
 import 'package:traveltekpro_task_karan/features/home/widgets/info_tile.dart';
 import 'package:traveltekpro_task_karan/features/home/widgets/life_experience_card.dart';
@@ -125,7 +126,7 @@ class HomeScreen extends GetView<HomeController> {
                           SizedBox(height: 10.h),
                           Container(
                             padding: EdgeInsets.all(12.w),
-                            height: 56.h,
+                            height: 48.h,
                             width: double.infinity,
                             decoration: BoxDecoration(
                               gradient: const LinearGradient(
@@ -349,7 +350,10 @@ class HomeScreen extends GetView<HomeController> {
                   ),
 
                   Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 16.w,vertical: 10.h),
+                    padding: EdgeInsets.symmetric(
+                      horizontal: 16.w,
+                      vertical: 10.h,
+                    ),
                     child: SizedBox(
                       width: double.infinity,
                       height: 39.h,
@@ -372,6 +376,13 @@ class HomeScreen extends GetView<HomeController> {
                         ),
                       ),
                     ),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.symmetric(
+                      horizontal: 16.w,
+                      vertical: 14.h,
+                    ),
+                    child: FlashDealsSection(),
                   ),
                 ],
               ),
